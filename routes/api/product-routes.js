@@ -50,6 +50,7 @@ router.post('/', async (req, res) => {
       product_name: "Basketball",
       price: 200.00,
       stock: 3,
+      category_id: 1,
       associatedTagIds: [1, 2, 3, 4]
     }
     !! the user must include valid tag ids in the associatedTagIds array. that way the the ProductTag will be associated with the correct tags.
