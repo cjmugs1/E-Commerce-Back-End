@@ -58,7 +58,7 @@ You can perform the following HTTP requests in Insomnia to use the application:
     - Create new category (POST): http://localhost:3001/api/categories
     - Delete category by id (DELETE): http://localhost:3001/api/categories/id
     - Use the following JSON format when updating or creating a category:
-        - `{"category_name": "Equipment"}`
+        - `{"category_name": "Baseball"}`
 
     Products:
     - All products (GET): http://localhost:3001/api/products
@@ -68,11 +68,11 @@ You can perform the following HTTP requests in Insomnia to use the application:
     - Delete product by id (DELETE): http://localhost:3001/api/products/id
     - Use the following JSON format when updating or creating a product:
         - `{
-	        "product_name": "ProductName",
-	        "price": 33.00,
-	        "stock": 13,
+	        "product_name": "Red Sox Hat",
+	        "price": 50.00,
+	        "stock": 1,
 	        "category_id": 1,
-	        "tag_id": [3]
+	        "associatedTagIds": [2]
             }`
 
     Tags:
@@ -83,6 +83,6 @@ You can perform the following HTTP requests in Insomnia to use the application:
     - Delete tag by id (DELETE): http://localhost:3001/api/tags/id
     - Use the following JSON format when updating or creating a tag:
         - `{
-            "tag_name": "Butterfly",
-            "productIds": [4]
+            "tag_name": "Baseball Hat",
+            "associatedProductIds": [3]
             }`
