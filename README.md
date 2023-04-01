@@ -2,7 +2,7 @@
 An application demonstrating the use of MySQL in creating a backend database for an e-commerce website.
 
 ## Video Walk-Through
-[Video Link]()
+[Video Link](https://drive.google.com/file/d/1JfGEJBf8MbRqLoM_Lj6ALBlx5rqlRqpU/view?usp=sharing)
 <br/><br/>
 ## Challenge Description | User Story
 ### **AS A manager** at an internet retail company
